@@ -7,6 +7,10 @@
   justify-content: center;
   position: relative;
 
+  h1{
+    font-size: 40px;
+  }
+
   .arrow {
     height: 50px;
     position: absolute;
@@ -46,7 +50,7 @@
       justify-content: center;
 
       .item {
-        width: 700px;
+        width: 800px;
         height: 100%;
         background-color: white;
         border-radius: 20px;
@@ -74,14 +78,28 @@
             align-items: center;
             justify-content: center;
 
+            .imgContainer {
+              width: 60px;
+              height: 60px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+
+              @include mobile {
+                width: 20px;
+                height: 20px;
+              }
+
               img {
-                width: 25px;
+                width: 60px;
 
                 @include mobile {
                   width: 15px;
                 }
               }
             }
+
             h2 {
               font-size: 30px;
               font-family: "IM Fell Great Primer",serif;
@@ -130,3 +148,8 @@
       }
     }
   }
+}
+
+#resume > div > div:nth-child(3) > div > div.left > div > h2 {
+  padding-left: 5px;
+}
