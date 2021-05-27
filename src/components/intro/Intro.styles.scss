@@ -14,7 +14,7 @@
             transition: all 1s ease;
              
             &.active{
-                border: none;
+                border: 0 solid transparent;
             }
             .midborder{
                 margin: 40px;
@@ -51,7 +51,7 @@
             left: 40%;
             
             img {
-                width: 30px;
+                width: 50px;
                 animation: arrowBlink 2s infinite;
             }
             @keyframes arrowBlink {
