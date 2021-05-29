@@ -21,7 +21,7 @@ const Intro = ({menuOpen, setMenuOpen}) => {
                  <div className={"outerborder " + (menuOpen && 'active')}>
                      <div className={"midborder " + (menuOpen && 'active')}>
                         <div className="imageContainer" >
-                            <img src='assets/man.pmg' alt='man'></img>
+                            <img src='assets/man.png' alt='man'></img>
                         </div> 
                     </div>
                  </div>
