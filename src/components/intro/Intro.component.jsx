@@ -21,7 +21,19 @@ const Intro = ({menuOpen, setMenuOpen}) => {
                  <div className={"outerborder " + (menuOpen && 'active')}>
                      <div className={"midborder " + (menuOpen && 'active')}>
                         <div className="imageContainer" >
-                            <img src='assets/man.png' alt='rajesh potrait'></img>
+                            <picture>
+                                <img
+                                    sizes="(max-width: 662px) 100vw, 662px"
+                                    srcset="
+                                    assets/man_w_200.png 200w,
+                                    assets/man_w_411.png 411w,
+                                    assets/man_w_552.png 552w,
+                                    assets/man_w_655.png 655w,
+                                    assets/man_w_662.png 662w"
+                                    src="assets/man_w_662.png"
+                                    alt="">
+                                </img>
+                            </picture>
                         </div> 
                     </div>
                  </div>
