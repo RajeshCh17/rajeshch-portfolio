@@ -16,7 +16,7 @@ $largeWidth: 1229px;
 }
 
 @mixin mediumScreen {
-    @media (min-width: #{$mobileWidth}) and (min-width: #{$largeWidth}){
+    @media (min-width: #{$mobileWidth}) and (max-width: #{$largeWidth}){
         @content
     }
 }
