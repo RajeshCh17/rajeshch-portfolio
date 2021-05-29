@@ -14,7 +14,11 @@
         @include mobile{
             flex: 1;
           }
-
+        
+        @include mediumScreen {
+            display: flex;
+            align-items: center;
+        }
         .outerborder{    
             border: 40px solid #15023a;
             margin: 40px;
@@ -22,8 +26,8 @@
 
             @include mobile {
                 border: 0 solid transparent;
-              }
-             
+            }
+            
             @include largeScreen {
                 border: 0 solid transparent;
             }

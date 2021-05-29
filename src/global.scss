@@ -1,7 +1,6 @@
 $mainColor: #15023a;
 
 $mobileWidth: 768px;
-
 $largeWidth: 1229px;
 
 @mixin mobile {
@@ -12,6 +11,12 @@ $largeWidth: 1229px;
 
 @mixin largeScreen {
     @media (min-width: #{$largeWidth}){
+        @content
+    }
+}
+
+@mixin mediumScreen {
+    @media (min-width: #{$mobileWidth}) and (min-width: #{$largeWidth}){
         @content
     }
 }
