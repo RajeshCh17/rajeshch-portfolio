@@ -12,6 +12,10 @@
         transition: all 1s ease;
         
         @include mobile{
+            flex: 3;
+          }
+
+          @include tablet{
             flex: 1;
           }
         
@@ -52,6 +56,10 @@
                     
                     @include mobile{
                         width: 62%;
+                        float: right;
+                      }
+                      @include tablet{
+                        width: 62%;
                       }
                     img{
                         height: 90%;
@@ -59,6 +67,11 @@
                         object-fit: scale-down;
                         object-position: center;
                     }
+                    @include mobile{
+                        height: 300px;
+                        object-fit: scale-down;
+                        object-position: center;
+                      }
                 }
             }
         }

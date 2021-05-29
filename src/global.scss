@@ -1,10 +1,17 @@
 $mainColor: #15023a;
 
-$mobileWidth: 768px;
+$mobileWidth: 480px;
+$tabletWidth: 768px;
 $largeWidth: 1229px;
 
 @mixin mobile {
     @media (max-width: #{$mobileWidth}){
+        @content
+    }
+}
+
+@mixin tablet {
+    @media (min-width: #{$mobileWidth}) and (min-width: #{$tabletWidth}){
         @content
     }
 }
