@@ -13,6 +13,7 @@
         
         @include mobile{
             flex: 3;
+            margin: 24px;
           }
 
           @include tablet{
@@ -30,6 +31,7 @@
 
             @include mobile {
                 border: 0 solid transparent;
+                border: 20px solid #15023a;
             }
 
             @include tablet {
@@ -62,10 +64,6 @@
                 .imageContainer{
                     width: 100%;
                     
-                    @include mobile{
-                        width: 62%;
-                        float: right;
-                      }
                       @include tablet{
                         width: 62%;
                       }
@@ -74,12 +72,12 @@
                         width: 100%;
                         object-fit: scale-down;
                         object-position: center;
+                        @include mobile{
+                            height: 300px;
+                            object-fit: cover;
+                            object-position: center;
+                          }
                     }
-                    @include mobile{
-                        height: 300px;
-                        object-fit: scale-down;
-                        object-position: center;
-                      }
                 }
             }
         }
@@ -125,20 +123,20 @@
             font-size: 60px;
             margin:10px 0;
             @include mobile{
-                font-size: 22px;
+                font-size: 40px;
             }
         }
         h2{
             font-size: 35px; 
             @include mobile{
-                font-size: 15px;
+                font-size: 25px;
             }  
         }
         h3{
             font-size: 50px; 
             color: #15023a;
             @include mobile{
-                font-size: 21px;
+                font-size: 30px;
             }
             
             span{
