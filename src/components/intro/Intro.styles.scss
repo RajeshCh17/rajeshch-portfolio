@@ -20,10 +20,14 @@
             margin: 40px;
             transition: all 1s ease;
 
-            @include mobile{
+            @include mobile {
                 border: 0 solid transparent;
               }
              
+            @include largeScreen {
+                border: 0 solid transparent;
+            }
+
             &.active{
                 border: 0 solid transparent;
             }
@@ -33,19 +37,23 @@
                 @include mobile{
                     margin: 0;
                   }
+                
+                @include largeScreen {
+                    margin: 40px;
+                    border: 40px solid #15023a;
+                }
 
                 .imageContainer{
                     width: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    float: right;
                     
                     @include mobile{
                         width: 62%;
                       }
                     img{
                         height: 90%;
+                        width: 100%;
+                        object-fit: cover;
+                        object-position: center;
                     }
                 }
             }
