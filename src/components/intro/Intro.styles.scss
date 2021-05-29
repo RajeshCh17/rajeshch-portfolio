@@ -31,6 +31,10 @@
             @include mobile {
                 border: 0 solid transparent;
             }
+
+            @include tablet {
+                border: 0 solid transparent;
+            }
             
             @include largeScreen {
                 border: 0 solid transparent;
@@ -43,6 +47,10 @@
                 margin: 40px;
 
                 @include mobile{
+                    margin: 0;
+                  }
+
+                  @include tablet{
                     margin: 0;
                   }
                 
