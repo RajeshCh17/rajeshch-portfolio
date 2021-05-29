@@ -22,6 +22,19 @@ const Intro = ({menuOpen, setMenuOpen}) => {
                      <div className={"midborder " + (menuOpen && 'active')}>
                         <div className="imageContainer" >
                             <img src='assets/man.png' alt='man'></img>
+                            <picture>
+                            <img
+                                sizes="(max-width: 662px) 100vw, 662px"
+                                srcset="
+                                man_pndxnu_c_scale,w_200.jpg 200w,
+                                man_pndxnu_c_scale,w_411.jpg 411w,
+                                man_pndxnu_c_scale,w_552.jpg 552w,
+                                man_pndxnu_c_scale,w_655.jpg 655w,
+                                man_pndxnu_c_scale,w_662.jpg 662w"
+                                src="man_pndxnu_c_scale,w_662.jpg"
+                                alt="">
+                                    </img>
+                                </picture>
                         </div> 
                     </div>
                  </div>
