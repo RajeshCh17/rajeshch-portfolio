@@ -21,6 +21,9 @@
 
           @include tablet{
             flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
           }
         
         @include mediumScreen {
@@ -38,7 +41,8 @@
             }
 
             @include tablet {
-                border: 0 solid transparent;
+                margin: 20px;
+                border: 20px solid #15023a;
             }
             
             @include largeScreen {
@@ -50,13 +54,16 @@
             }
             .midborder{
                 margin: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
                 @include mobile{
                     margin: 10px;
                   }
 
                   @include tablet{
-                    margin: 0;
+                    margin: 20px;
                   }
                 
                 @include largeScreen {
@@ -68,7 +75,7 @@
                     width: 100%;
                     
                       @include tablet{
-                        width: 62%;
+                        width: 74%;
                       }
                     img{
                         height: 90%;
