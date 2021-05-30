@@ -2,8 +2,13 @@
 .intro{
     background: white;
     display: flex;
+    flex-direction: row;
     
     @include mobile{
+        flex-direction: column;
+      }
+
+      @include tablet{
         flex-direction: column;
       }
     .left{
@@ -130,19 +135,22 @@
         }
 
         h1{
-            font-size: 60px;
+            //font-size: 60px;
+            font-size: 8vw; 
             margin:10px 0;
             @include mobile{
                 font-size: 32px;
             }
         }
         h2{
-            font-size: 35px; 
+            //font-size: 35px; 
+            font-size: 6vw; 
             @include mobile{
                 font-size: 24px;
             }  
         }
         h3{
+            //font-size: 50px; 
             font-size: 50px; 
             color: #15023a;
             @include mobile{
