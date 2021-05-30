@@ -33,7 +33,7 @@
             transition: all 1s ease;
 
             @include mobile {
-                border: 0 solid transparent;
+                margin: 20px;
                 border: 20px solid #15023a;
             }
 
@@ -52,7 +52,7 @@
                 margin: 40px;
 
                 @include mobile{
-                    margin: 0;
+                    margin: 20px;
                   }
 
                   @include tablet{
