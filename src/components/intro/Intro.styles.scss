@@ -14,27 +14,21 @@
     .left{
         flex:0.5;
         overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         transition: all 1s ease;
         
         @include mobile{
             flex: 3;
             margin: 24px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            
           }
 
           @include tablet{
             flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
           }
         
-        @include mediumScreen {
-            display: flex;
-            align-items: center;
-        }
         .outerborder{    
             border: 40px solid #15023a;
             margin: 40px;
