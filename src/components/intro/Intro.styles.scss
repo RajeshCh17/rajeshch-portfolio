@@ -68,6 +68,10 @@
                         object-fit: cover;
                         object-position: center;
 
+                        @include mobile{
+                            height: 300px;
+                          }
+
                         @include mediumScreen{
                             height: 450px;
                             width: 60%;
@@ -75,6 +79,7 @@
                         @include largeScreen{
                             height: 450px;
                             width: 60%;
+                            border: 30px solid $mainColor;
                           }
                     }
                 }
