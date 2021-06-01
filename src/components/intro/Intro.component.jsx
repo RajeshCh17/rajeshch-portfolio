@@ -11,7 +11,7 @@ const Intro = ({menuOpen, setMenuOpen}) => {
         showCursor: true,
         backDelay: 1500,
         backSpeed:60,
-        strings: ["Frontend","Angular", "React","Typescript"],
+        strings: ["Frontend / UI","Angular", "React","Typescript"],
       });
     }, []);
 

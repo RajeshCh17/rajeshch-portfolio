@@ -65,11 +65,8 @@
                         margin: 10px;
                         border: 20px solid $mainColor;
                         width: 50%;
-                        object-fit: scale-down;
+                        object-fit: cover;
                         object-position: center;
-                        @include mobile{
-                            object-fit: cover;
-                          }
                     }
                 }
             }
@@ -101,9 +98,15 @@
                 bottom: 1px;
                 left: 85vw;
             }
+            @include tablet{
+                left: 50%;
+            }
             img {
                 width: 50px;
                 animation: arrowBlink 2s infinite;
+            }
+            @include tablet{
+                width: 25px;
             }
             @keyframes arrowBlink {
                 100% {
@@ -115,13 +118,31 @@
         h1{
             font-size: 8vw; 
             margin:10px 0;
+            @include tablet {
+                font-size: 6vw; 
+            }
+            @include mediumScreen {
+                font-size: 5vw;
+            }
         }
         h2{
             font-size: 6vw; 
+            @include tablet {
+                font-size: 4vw; 
+            }
+            @include mediumScreen {
+                font-size: 4vw;
+            }
         }
         h3{
             font-size: 8vw;
             color: #15023a;
+            @include tablet {
+                font-size: 6vw; 
+            }
+            @include mediumScreen {
+                font-size: 4vw;
+            }
             
             span{
                 font-family: 'IM Fell Great Primer', serif;
