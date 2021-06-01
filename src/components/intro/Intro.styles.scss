@@ -104,12 +104,15 @@
             img {
                 width: 50px;
                 animation: arrowBlink 2s infinite;
-            }
-            @include tablet{
-                width: 30px;
-            }
-            @include tablet{
-                width: 30px;
+
+                @include mobile{
+                    width: 30px;
+                }
+
+                @include tablet{
+                    width: 30px;
+                }
+                
             }
             @keyframes arrowBlink {
                 100% {
