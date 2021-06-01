@@ -32,15 +32,6 @@
         .outerborder{    
             transition: all 1s ease;
 
-            @include mobile {
-            }
-
-            @include tablet {
-            }
-            
-            @include largeScreen {
-            }
-
             &.active{
                 border: 0 solid transparent;
             }
@@ -49,6 +40,13 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                @include mediumScreen {
+                    margin: 0px;  
+                }
+                @include largeScreen {
+                    margin: 0px;  
+                }
 
                 .imageContainer{
                     width: 100%;
