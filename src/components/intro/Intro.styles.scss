@@ -69,9 +69,11 @@
                         object-position: center;
 
                         @include mediumScreen{
+                            height: 450px;
                             width: 60%;
                           }
                         @include largeScreen{
+                            height: 450px;
                             width: 60%;
                           }
                     }
