@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/rajeshch-portfolio/static/css/main.47180cc3.chunk.css",
-    "main.js": "/rajeshch-portfolio/static/js/main.6d216aed.chunk.js",
-    "main.js.map": "/rajeshch-portfolio/static/js/main.6d216aed.chunk.js.map",
+    "main.css": "/rajeshch-portfolio/static/css/main.f68f3d57.chunk.css",
+    "main.js": "/rajeshch-portfolio/static/js/main.06f594b8.chunk.js",
+    "main.js.map": "/rajeshch-portfolio/static/js/main.06f594b8.chunk.js.map",
     "runtime-main.js": "/rajeshch-portfolio/static/js/runtime-main.59973ee5.js",
     "runtime-main.js.map": "/rajeshch-portfolio/static/js/runtime-main.59973ee5.js.map",
-    "static/js/2.864d7828.chunk.js": "/rajeshch-portfolio/static/js/2.864d7828.chunk.js",
-    "static/js/2.864d7828.chunk.js.map": "/rajeshch-portfolio/static/js/2.864d7828.chunk.js.map",
+    "static/js/2.e6156d3d.chunk.js": "/rajeshch-portfolio/static/js/2.e6156d3d.chunk.js",
+    "static/js/2.e6156d3d.chunk.js.map": "/rajeshch-portfolio/static/js/2.e6156d3d.chunk.js.map",
     "index.html": "/rajeshch-portfolio/index.html",
-    "static/css/main.47180cc3.chunk.css.map": "/rajeshch-portfolio/static/css/main.47180cc3.chunk.css.map",
-    "static/js/2.864d7828.chunk.js.LICENSE.txt": "/rajeshch-portfolio/static/js/2.864d7828.chunk.js.LICENSE.txt"
+    "static/css/main.f68f3d57.chunk.css.map": "/rajeshch-portfolio/static/css/main.f68f3d57.chunk.css.map",
+    "static/js/2.e6156d3d.chunk.js.LICENSE.txt": "/rajeshch-portfolio/static/js/2.e6156d3d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.59973ee5.js",
-    "static/js/2.864d7828.chunk.js",
-    "static/css/main.47180cc3.chunk.css",
-    "static/js/main.6d216aed.chunk.js"
+    "static/js/2.e6156d3d.chunk.js",
+    "static/css/main.f68f3d57.chunk.css",
+    "static/js/main.06f594b8.chunk.js"
   ]
 }
