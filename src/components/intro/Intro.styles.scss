@@ -78,6 +78,7 @@
                         @include mediumScreen{
                             height: 450px;
                             width: 60%;
+                            border: 30px solid $mainColor;
                           }
 
                         @include largeScreen{
