@@ -67,6 +67,13 @@
                         width: 50%;
                         object-fit: cover;
                         object-position: center;
+
+                        @include mediumScreen{
+                            width: 60%;
+                          }
+                        @include largeScreen{
+                            width: 60%;
+                          }
                     }
                 }
             }
@@ -130,6 +137,9 @@
             @include mediumScreen {
                 font-size: 5vw;
             }
+            @include largeScreen {
+                font-size: 5vw;
+            }
         }
         h2{
             font-size: 6vw; 
@@ -137,6 +147,9 @@
                 font-size: 4vw; 
             }
             @include mediumScreen {
+                font-size: 4vw;
+            }
+            @include largeScreen {
                 font-size: 4vw;
             }
         }
@@ -147,6 +160,9 @@
                 font-size: 6vw; 
             }
             @include mediumScreen {
+                font-size: 4vw;
+            }
+            @include largeScreen {
                 font-size: 4vw;
             }
             
