@@ -76,13 +76,13 @@
                         }
 
                         @include mediumScreen{
-                            height: 600px;
+                            height: 500px;
                             width: 60%;
                             border: 30px solid $mainColor;
                           }
 
                         @include largeScreen{
-                            height: 600px;
+                            height: 500px;
                             width: 60%;
                             border: 30px solid $mainColor;
                           }
@@ -109,7 +109,7 @@
             justify-content: center;
             @include mobile{
                 position: absolute;
-                top: -25px;
+                top: -15px;
               }
             @include tablet{
                 position: absolute;
