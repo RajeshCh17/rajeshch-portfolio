@@ -35,7 +35,10 @@
                 @include mobile{
                     display: none;
                   }
-
+                
+                  @include tablet{
+                    display: none;
+                  }
                 .icon{
                     font-size: 18px;
                     margin-right: 5px;
