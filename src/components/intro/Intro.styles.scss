@@ -32,9 +32,6 @@
         .outerborder{    
             transition: all 1s ease;
 
-            &.active{
-                border: 0 solid transparent;
-            }
             .midborder{
                 margin: 40px;
                 display: flex;
@@ -86,6 +83,10 @@
                             width: 60%;
                             border: 30px solid $mainColor;
                           }
+
+                          &.active{
+                            border: 0 solid transparent;
+                        }
                     }
                 }
             }

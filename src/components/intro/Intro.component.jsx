@@ -18,10 +18,10 @@ const Intro = ({menuOpen, setMenuOpen}) => {
     return (
         <div className="intro" id="intro">
              <div className="left">
-                 <div className={"outerborder " + (menuOpen && 'active')}>
-                     <div className={"midborder " + (menuOpen && 'active')}>
+                 <div className="outerborder">
+                     <div className="midborder">
                         <div className="imageContainer" >
-                            <img src='assets/man.png' alt='man'></img>
+                            <img src='assets/man.png' className={(menuOpen && 'active')} alt='man'></img>
                         </div> 
                     </div>
                  </div>
