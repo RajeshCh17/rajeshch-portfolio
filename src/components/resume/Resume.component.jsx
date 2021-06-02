@@ -1,6 +1,7 @@
-import React,{useState} from 'react'
+import React,{useState} from 'react';
 import './Resume.styles.scss';
 import Education from '../education/education.component.jsx';
+import Experience from '../experience/experience.component.jsx';
 
 const Resume = () => {
 
@@ -105,7 +106,7 @@ const Resume = () => {
                   </div>
                 </div>
                 <div className="right">
-                  <Education></Education>             
+                  <Education/>             
                 </div>
               </div>
             </div>
@@ -118,10 +119,10 @@ const Resume = () => {
                       <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOwAAADVCAMAAABjeOxDAAAAclBMVEUAAAD39/f////19fX7+/vJycmbm5uDg4NMTEwfHx8mJiavr69mZmaMjIxGRkZtbW1dXV3v7+/BwcHf398nJyekpKRSUlKJiYmVlZV1dXXl5eW0tLSmpqbW1tbc3Nw7Ozu7u7sTExMZGRlQUFAwMDBBQUF0dwM6AAAD7klEQVR4nO3da0PaMBTG8fY0oAhMCnIZF0Xdvv9XnL4YtEnYKD2ngYfn/xpZfgsXkTTJ8jsqSz2ALiMWNWJRIxY1YlHTxjpRzCkPThcr+XQ8WjyqtBgt94WoDk8T6/JVptyy1JxdRazsBtrWr3qKk6uHlakB9auhnlYN63Y21izbq2nVsIWVNcvWWs9bLaw82GFHWlOrhS3trFk2U5paJawbWmJXSlOrhJWfltjHK8O+WWLfr+thLE+W2KzQGaUW1uKXJ2LbRGzzAuygVe83hf0hrkXyfGPYVvdGbPuIbR6xl98bse0jtnnEXn5vxLaP2OYRe/m9dY39/vDRoADbKh+bN/jZr4E3wzrJ19Nhv0HeJ9CXeZMf9pv/8LBNfni7nxUnvtmNYaXYjLKbbrItY94QK8U49Vg1eijDl40AK5vUw9RqHkyuh3W5/9pwwy38r+3rWFea/mW/6wbel51Z3fqSenzK1bX1mYWa1+8+ao/kKjZ4Lweo9gVgBYvzOlytL1Gs4aqIlFWetkesQPwuEfYsESzoxFan9oB1kM/Y747P2gNWJqkHZdVbiM1Tj8muw3vtX6ybpR6SXb0Aa7TM8hraBljTVVtpG4uHlX7qIdn1QCxoxKJGLGrEokYsasSiRixqxKJGLGrEokYsasSiRixqxKJGLGrEokYsasSiRixqxKJGLGrEokYsaveNzfMCtgORG7CjRixqxKJGLGr3iW2zt+mJKv+M4k1bDORwLd66p93uSHCvaje9oFf/wkNRP6MkmxwvNv/f/uyLyk31DyTo4lPP6HxB9f9Ff58BYpUjNh6xahGrHLHxiFWLWOWIjUesWl1jG3zquXms6w3/2dQBYRv8pQIAe37EtotY5S47us9gD9NOvnm/aI94p78RbyfYS47JdT39cXSC/cibH8tocU5kNwtIJo0PLzc5ALSj1TKf0R3uT+WkMNnSv7OlQav1uV/IiCvnHyZj6HId1NN52W2Hft+LvogFiVjUiEWNWNSIRY1Y1IhFjVjUiEWNWNSIRY1Y1IhFjVjUiEUtxM5TD8mupY/FPaS0ckzpAbtLPSS7Nv5VlnmZekh2BZeU5vIr9ZjMCk8WRj0yunpo9PEy8NfUg7JqGs5sLp+pR2XTS+zoc4slktfQJobNxWQtXep+V5bGVrAO8t1n5qJYyAdybc1zbQcSgTs4elVb313fbkW2qUen27hm9feWkX3q8Wk299bt+xvpyKvdUtiu2/nXKAS7BjmUj/FLFyxij2yRJGX/5md3MC4jl55E94MS2c2fDS7D6Ka3UX/notcmnNj8yslNd+IqjPvc6eseIhY1YlEjFjViUSMWtbvC/gGebXRE7jIvWQAAAABJRU5ErkJggg==' alt="" />
                     </div>
                     <h2>Experience</h2>
-                    <blockquote></blockquote>
                   </div>
                 </div>
-                <div className="right">                
+                <div className="right">   
+                  <Experience/>             
                 </div>
               </div>
             </div>
