@@ -91,6 +91,10 @@
                 height: 20px;
               }
 
+              @include tablet {
+                height: 40px;
+              }
+
               img {
                 width: 60px;
 
@@ -133,8 +137,8 @@
           .icon-list{
 
               .icon {
-                height: 60px;
-                width: 60px;
+                height: 50px;
+                width: 50px;
                 padding: 12px;
                 text-align: center;
                 display: inline-flex;
@@ -148,6 +152,12 @@
                   width: 12px;
                   padding: 6px;
                   margin: 5px;
+                }
+
+                @include tablet{
+                  height: 30px;
+                  width: 30px;
+                  padding: 20px;
                 }
               }
           }

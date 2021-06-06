@@ -7,12 +7,22 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
-
-const StyledTypography = withStyles({
+const styles = theme => ({
   body1: {
-    fontWeight: 100,
+    fontWeight: 350,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '0.75rem',
+    },
+    [theme.breakpoints.up('md')]: {
+      fontSize: '0.85rem',
+    },
+    [theme.breakpoints.up('lg')]: {
+      fontSize: '1rem',
+    },
   },
-})(Typography);
+});
+
+const StyledTypography = withStyles(styles)(Typography);
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
