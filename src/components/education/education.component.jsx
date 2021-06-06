@@ -8,13 +8,11 @@ export default function Education() {
             <div className="box">
                 <div className="container">
                     <div className="lines">
-                        <div className="line"></div>
                         <div className="dot"></div>
                         <div className="line"></div>
                         <div className="dot"></div>
                         <div className="line"></div>
                         <div className="dot"></div>
-                        <div className="line"></div>
                     </div>  
                     <div className="cards">
                         <div className="card">

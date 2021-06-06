@@ -39,12 +39,17 @@
         .dot {
           width: 14px;
           height: 14px;
-          background: linear-gradient(
-            45deg
-            , black, transparent);
           border-radius: 7px;
         }
-
+        :nth-child(1){
+          background: purple; 
+        }
+        .dot:nth-child(3){
+          background: darkolivegreen; 
+        }
+        .dot:nth-child(5){
+          background: darkkhaki; 
+        }
         .line {
           height: 103px;
           width: 2px;
