@@ -1,4 +1,5 @@
 import React,{ useState } from 'react';
+import CustomizedSnackbar from '../snackbar/Snackbar.component.jsx';
 import './Contact.styles.scss'
 
 const Contact = () => {
@@ -19,7 +20,7 @@ const Contact = () => {
             <input type="text" placeholder="Email" />
             <textarea placeholder="Message"></textarea>
             <button type="submit">Send</button>
-            {message && <span>Thanks, I'll reply ASAP :)</span>}
+            <CustomizedSnackbar message={message} setMessage={setMessage}/>
           </form>
         </div>
       </div>
@@ -27,4 +28,6 @@ const Contact = () => {
 }
 
 export default Contact;
+
+//{message && <span>Thanks, I'll reply ASAP :)</span>}
 
