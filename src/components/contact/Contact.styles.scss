@@ -44,6 +44,12 @@
           width: 200px;
           height: 20px;
         }
+        @include tablet {
+          padding-left: 83%;
+        }
+        @include mediumScreen {
+          padding-left: 2%;
+        }
       }
 
       textarea {
@@ -54,6 +60,12 @@
         @include mobile {
           width: 200px;
           height: 100px;
+        }
+        @include tablet {
+          padding-left: 83%;
+        }
+        @include mediumScreen {
+          padding-left: 2%;
         }
       }
 

@@ -13,7 +13,9 @@ export default function CustomizedSnackbar({message,setMessage}) {
 
   return (
     <div >
-      <Snackbar open={message} autoHideDuration={2000} onClose={handleClose}>
+      <Snackbar open={message}
+        autoHideDuration={2000}
+        onClose={handleClose}>
         <Alert open={message} autoHideDuration={2000} onClose={handleClose} severity="success">
             Thanks will reply ASAP!     
         </Alert>
