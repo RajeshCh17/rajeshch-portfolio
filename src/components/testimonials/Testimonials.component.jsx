@@ -12,7 +12,7 @@ const Testimonials = () => {
           icon: "assets/linkedin.png",
           socila_profile_link:"http://www.linkedin.com/in/jithendra-koduru-43bba021/",
           desc:
-            "Rajesh is a very quick learner. You give a task and he comes up with great solutions, even though the technology is new to him. Rajesh likes challenges and does his best when given a challenging task. As a person, Rajesh is a great person to be around, always spreading joy and positive energy and very easy to get along with. I was really surprised by the speed with which he learnt AngularJS and other technologies of his interest, while working on a tight scheduled project.",
+            "Rajesh is a very quick learner. You give a task and he comes up with great solutions, even though the technology is new to him. As a person, Rajesh is a great person to be around, always spreading joy and positive energy and very easy to get along with.",
         },
         {
           id: 2,

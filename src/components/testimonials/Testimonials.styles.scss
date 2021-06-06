@@ -9,6 +9,9 @@
   @include mobile{
     justify-content: space-around;
   }
+  @include tablet{
+    justify-content: space-around;
+  }
 
 
   h1 {
@@ -16,6 +19,9 @@
 
     @include mobile{
       font-size: 20px;
+    }
+    @include tablet{
+      font-size: 22px;
     }
   }
 
@@ -30,12 +36,17 @@
       flex-direction: column;
       height: 100%;
     }
+    @include tablet{
+      flex-direction: column;
+      height: 100%;
+    }
 
     .card {
       width: 250px;
       height: 78%;
       border-radius: 10px;
       box-shadow: 0px 0px 15px -8px black;
+      background-color: whitesmoke;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
@@ -43,7 +54,11 @@
       transition: all 1s ease;
 
       @include mobile{
-        height: 180px;
+        height: 232px;
+        margin: 10px 0;
+      }
+      @include tablet{
+        height: 232px;
         margin: 10px 0;
       }
 
@@ -51,9 +66,16 @@
           width: 300px;
           height: 75%;
           margin: 0 30px;
+          
 
           @include mobile{
             width: 250px;
+            height: 180px;
+            margin: 1px;
+          }
+
+          @include tablet{
+            width: 300px;
             height: 180px;
             margin: 1px;
           }
@@ -67,6 +89,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow-y: hidden;
 
         img {
           &.left,
@@ -84,6 +107,10 @@
               width: 30px;
               height: 30px;
             }
+            @include tablet{
+              width: 30px;
+              height: 30px;
+            }
           }
         }
       }
@@ -92,10 +119,15 @@
         padding: 10px;
         border-radius: 10px;
         background-color: rgb(250, 244, 245);
+        overflow-y: hidden;
 
         @include mobile{
-          font-size: 12px;
+          font-size: 11px;
           padding: 5px;
+        }
+        @include tablet{
+          font-size: 12px;
+          padding: 0px;
         }
       }
       .bottom {
@@ -108,13 +140,19 @@
           margin-bottom: 5px;
 
           @include mobile{
-            font-size: 14px;
+            font-size: 12px;
+          }
+          @include tablet{
+            font-size: 15px;
           }
         }
         h4{
             color: rgb(121, 115, 115);
             @include mobile{
-              font-size: 13px;
+              font-size: 11px;
+            }
+            @include tablet{
+              font-size: 14px;
             }
         }
       }
