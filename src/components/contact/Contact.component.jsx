@@ -29,5 +29,3 @@ const Contact = () => {
 
 export default Contact;
 
-//{message && <span>Thanks, I'll reply ASAP :)</span>}
-
