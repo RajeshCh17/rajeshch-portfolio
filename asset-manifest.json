@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/rajeshch-portfolio/static/css/main.f5d460b3.chunk.css",
-    "main.js": "/rajeshch-portfolio/static/js/main.89370179.chunk.js",
-    "main.js.map": "/rajeshch-portfolio/static/js/main.89370179.chunk.js.map",
+    "main.css": "/rajeshch-portfolio/static/css/main.3d81420e.chunk.css",
+    "main.js": "/rajeshch-portfolio/static/js/main.bef1cebf.chunk.js",
+    "main.js.map": "/rajeshch-portfolio/static/js/main.bef1cebf.chunk.js.map",
     "runtime-main.js": "/rajeshch-portfolio/static/js/runtime-main.59973ee5.js",
     "runtime-main.js.map": "/rajeshch-portfolio/static/js/runtime-main.59973ee5.js.map",
     "static/js/2.febd2a54.chunk.js": "/rajeshch-portfolio/static/js/2.febd2a54.chunk.js",
     "static/js/2.febd2a54.chunk.js.map": "/rajeshch-portfolio/static/js/2.febd2a54.chunk.js.map",
     "index.html": "/rajeshch-portfolio/index.html",
-    "static/css/main.f5d460b3.chunk.css.map": "/rajeshch-portfolio/static/css/main.f5d460b3.chunk.css.map",
+    "static/css/main.3d81420e.chunk.css.map": "/rajeshch-portfolio/static/css/main.3d81420e.chunk.css.map",
     "static/js/2.febd2a54.chunk.js.LICENSE.txt": "/rajeshch-portfolio/static/js/2.febd2a54.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.59973ee5.js",
     "static/js/2.febd2a54.chunk.js",
-    "static/css/main.f5d460b3.chunk.css",
-    "static/js/main.89370179.chunk.js"
+    "static/css/main.3d81420e.chunk.css",
+    "static/js/main.bef1cebf.chunk.js"
   ]
 }
