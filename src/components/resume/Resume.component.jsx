@@ -128,13 +128,13 @@ const Resume = () => {
             </div>
         </div>
         <img
-          src="assets/arrow.png"
+          src="assets/left_cropped.png"
           className="arrow left"
           alt="image left"
           onClick={() => handleClick("left")}
         />
         <img
-          src="assets/arrow.png"
+          src="assets/left_cropped.png"
           className="arrow right"
           alt="image right"
           onClick={() => handleClick()}
