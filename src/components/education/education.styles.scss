@@ -40,6 +40,9 @@
           width: 14px;
           height: 14px;
           border-radius: 7px;
+          @include mobile{
+            font-size: 10px;
+          }
         }
         :nth-child(1){
           background: purple; 
@@ -55,6 +58,9 @@
           width: 2px;
           background: $mainColor;
           margin-left: 5.3px;
+          @include mobile{
+            height: 31px;
+          }
         }
       }
       .cards {
@@ -72,12 +78,29 @@
           box-shadow: 0px 16px 15px -10px rgba(105, 96, 215, 0.0944602);
           margin-bottom: 10px;
 
+          @include mobile{
+            height: 31px;
+            padding-top: 10px;
+          }
+
           h2{
             font-size: 16px;
+            @include mobile{
+              font-size: 10px;
+            }
           }
-          
+
+          p{
+            @include mobile{
+              font-size: 10px;
+            }
+          }
+
           &.mid {
             height: 71px;
+            @include mobile{
+              height: 30px;
+            }
           }
         }
       }
