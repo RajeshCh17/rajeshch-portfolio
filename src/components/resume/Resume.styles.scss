@@ -97,6 +97,8 @@
 
               img {
                 width: 60px;
+                object-fit:scale-down;
+                object-position: center;
 
                 @include mobile {
                   width: 15px;
