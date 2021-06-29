@@ -16,15 +16,15 @@ export default function Education() {
                     </div>  
                     <div className="cards">
                         <div className="card">
-                            <h2>B.E - 7.7 CGPA (2010 - 2014)</h2>
+                            <h2>B.E - 7.7 CGPA  (2010 - 2014)</h2>
                             <p>RAJIV GANDHI TECHNICAL UNIVERSITY</p>
                         </div>
                         <div className="card mid">
-                            <h2>S.S.C - 84% (2010)</h2>
+                            <h2>S.S.C - 84%  (2010)</h2>
                             <p>KENDRIYA VIDYALAYA</p>
                         </div>
                         <div className="card">
-                            <h2>H.S.C - 80% (2008)</h2>
+                            <h2>H.S.C - 80%  (2008)</h2>
                             <p>KENDRIYA VIDYALAYA</p>
                         </div>
                     </div>       

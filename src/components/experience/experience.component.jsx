@@ -17,7 +17,7 @@ const styles = theme => ({
       fontSize: '0.85rem',
     },
     [theme.breakpoints.up('lg')]: {
-      fontSize: '1rem',
+      fontSize: '0.95rem',
     },
   },
 });
