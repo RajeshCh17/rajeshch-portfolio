@@ -6,17 +6,17 @@ function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
 }
 
-export default function CustomizedSnackbar({message,setMessage}) {
+export default function CustomizedSnackbar({open,setOpen}) {
   const handleClose = () => {
-   setMessage(false);
+    setOpen(false);
   };
 
   return (
     <div >
-      <Snackbar open={message}
+      <Snackbar open={open}
         autoHideDuration={2000}
         onClose={handleClose}>
-        <Alert open={message} autoHideDuration={2000} onClose={handleClose} severity="success">
+        <Alert open={open} autoHideDuration={2000} onClose={handleClose} severity="success">
             Thanks will reply ASAP!     
         </Alert>
       </Snackbar>
