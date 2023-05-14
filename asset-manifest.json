@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/rajeshch-portfolio/static/css/main.8f8fc678.chunk.css",
-    "main.js": "/rajeshch-portfolio/static/js/main.166ec204.chunk.js",
-    "main.js.map": "/rajeshch-portfolio/static/js/main.166ec204.chunk.js.map",
-    "runtime-main.js": "/rajeshch-portfolio/static/js/runtime-main.59973ee5.js",
-    "runtime-main.js.map": "/rajeshch-portfolio/static/js/runtime-main.59973ee5.js.map",
-    "static/js/2.febd2a54.chunk.js": "/rajeshch-portfolio/static/js/2.febd2a54.chunk.js",
-    "static/js/2.febd2a54.chunk.js.map": "/rajeshch-portfolio/static/js/2.febd2a54.chunk.js.map",
+    "main.css": "/rajeshch-portfolio/static/css/main.06512088.css",
+    "main.js": "/rajeshch-portfolio/static/js/main.c1bb6695.js",
+    "static/media/testimonial2.jpeg": "/rajeshch-portfolio/static/media/testimonial2.a5aa7709a0075c9f6672.jpeg",
+    "static/media/tick.png": "/rajeshch-portfolio/static/media/tick.631c3531e9f1d1a28b10.png",
+    "static/media/testimonial3.jpeg": "/rajeshch-portfolio/static/media/testimonial3.08ded0ff356c34364d98.jpeg",
+    "static/media/man.png": "/rajeshch-portfolio/static/media/man.a1c5b28eb2aa5f98c5c8.png",
+    "static/media/globe.png": "/rajeshch-portfolio/static/media/globe.c824dd0ff3908c759e82.png",
+    "static/media/testimonial1.jpeg": "/rajeshch-portfolio/static/media/testimonial1.713b2d3f3656956cc4c9.jpeg",
+    "static/media/right-arrow.png": "/rajeshch-portfolio/static/media/right-arrow.4a3b05197c70630a1504.png",
+    "static/media/shake.svg": "/rajeshch-portfolio/static/media/shake.c7165a1f59e2367bf4395199384f606f.svg",
+    "static/media/react.svg": "/rajeshch-portfolio/static/media/react.cecd5b6597ff4c0f78e1462f843e2e6d.svg",
     "index.html": "/rajeshch-portfolio/index.html",
-    "static/css/main.8f8fc678.chunk.css.map": "/rajeshch-portfolio/static/css/main.8f8fc678.chunk.css.map",
-    "static/js/2.febd2a54.chunk.js.LICENSE.txt": "/rajeshch-portfolio/static/js/2.febd2a54.chunk.js.LICENSE.txt"
+    "static/media/angular.svg": "/rajeshch-portfolio/static/media/angular.3f781d9105b3bef395676155dd37e208.svg",
+    "main.06512088.css.map": "/rajeshch-portfolio/static/css/main.06512088.css.map",
+    "main.c1bb6695.js.map": "/rajeshch-portfolio/static/js/main.c1bb6695.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.59973ee5.js",
-    "static/js/2.febd2a54.chunk.js",
-    "static/css/main.8f8fc678.chunk.css",
-    "static/js/main.166ec204.chunk.js"
+    "static/css/main.06512088.css",
+    "static/js/main.c1bb6695.js"
   ]
 }
