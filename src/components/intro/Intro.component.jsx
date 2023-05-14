@@ -14,7 +14,7 @@ const Intro = ({menuOpen, setMenuOpen}) => {
         showCursor: true,
         backDelay: 1500,
         backSpeed:60,
-        strings: ["WEB / FullStack","Angular", "React","Node","MongoDB","Typescript"],
+        strings: ["Web","Angular", "React","Node","MongoDB","Typescript"],
       });
     }, []);
 
