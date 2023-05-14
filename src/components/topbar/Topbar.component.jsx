@@ -3,6 +3,17 @@ import "./Topbar.styles.scss";
 import { Person, Mail } from "@material-ui/icons";
 
 const Topbar = ({menuOpen, setMenuOpen}) => {
+  const phoneClickHandler = () => {
+    navigator.clipboard.writeText('+91 7416518691').then(() => {
+      alert('contact copied!!');
+  });;
+  };
+  const emailClickHandler = () => {
+    navigator.clipboard.writeText('rajesh.choudhary1704@gmail.com').then(() => {
+      alert('email copied!!');
+  });;
+  };
+
   return (
     <div className={"topbar " + (menuOpen && 'active')} id="topbar">
       <div className="wrapper">
@@ -12,11 +23,11 @@ const Topbar = ({menuOpen, setMenuOpen}) => {
           </a>
           <div className="itemContainer">
             <Person className='icon'/>
-            <span>+91 7416518691</span>
+            <span onClick={phoneClickHandler}>+91 7416518691</span>
           </div>
           <div className="itemContainer">
             <Mail className='icon'/>
-            <span>rajesh.choudhary1704@gmail.com</span>
+            <span onClick={emailClickHandler}>rajesh.choudhary1704@gmail.com</span>
           </div>
         </div>
         <div className="right">
