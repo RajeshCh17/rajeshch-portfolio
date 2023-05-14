@@ -2,6 +2,9 @@ import React from 'react';
 import { init } from 'ityped';
 import { useEffect, useRef } from "react";
 import './Intro.styles.scss';
+import profilePic from '../../assets/man.png';
+import downArrow from '../../assets/down.png';
+
 
 const Intro = ({menuOpen, setMenuOpen}) => {
     const textRef = useRef();
@@ -21,7 +24,7 @@ const Intro = ({menuOpen, setMenuOpen}) => {
                  <div className="outerborder">
                      <div className="midborder">
                         <div className="imageContainer" >
-                            <img src='assets/man.png' className={(menuOpen && 'active')} alt='man'></img>
+                            <img src={profilePic} className={(menuOpen && 'active')} alt='man'></img>
                         </div> 
                     </div>
                  </div>
@@ -33,7 +36,7 @@ const Intro = ({menuOpen, setMenuOpen}) => {
                      <h3><span ref={textRef}></span> Developer</h3>
                  </div>
                  <a href="#resume">
-                     <img src='assets/down.png' alt='down-arrow'></img>
+                     <img src={downArrow} alt='down-arrow'></img>
                  </a>
              </div>
         </div>

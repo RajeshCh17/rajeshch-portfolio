@@ -1,15 +1,20 @@
 import React from 'react';
 import './Testimonials.styles.scss';
+import linkedin from '../../assets/linkedin.png';
+import rightArrow from '../../assets/right-arrow.png';
+import Recommendation1 from '../../assets/testimonial1.jpeg';
+import Recommendation2 from '../../assets/testimonial2.jpeg';
+import Recommendation3 from '../../assets/testimonial3.jpeg';
+
 
 const Testimonials = () => {
     const data = [
         {
           id: 1,
           name: "Jithendra Koduru",
-          title: "Senior Manager at Salesforce",
-          img:
-            "https://media-exp1.licdn.com/dms/image/C4D03AQF8hy284cIBdw/profile-displayphoto-shrink_800_800/0/1516960492574?e=1627516800&v=beta&t=kKwcmsvcwgbI2cDr8Wd6zvNkvTXZrWk75IbB2FGBOUo",
-          icon: "assets/linkedin.png",
+          title: "Director Engineering & Product Management at Salesforce",
+          img: Recommendation1,
+          icon: linkedin,
           socila_profile_link:"http://www.linkedin.com/in/jithendra-koduru-43bba021/",
           desc:
             "Rajesh is a very quick learner. You give a task and he comes up with great solutions, even though the technology is new to him. As a person, Rajesh is a great person to be around, always spreading joy and positive energy and very easy to get along with.",
@@ -17,10 +22,9 @@ const Testimonials = () => {
         {
           id: 2,
           name: "Sai Santosh Suddula",
-          title: "Senior Developer at Walker & Dunlop",
-          img:
-            "https://media-exp1.licdn.com/dms/image/C4E03AQF9VOik8lMzZg/profile-displayphoto-shrink_800_800/0/1616546483065?e=1627516800&v=beta&t=hL8QVRJTiRfkg2PMGM_NG_L0_fj5aaSBw66phAi42pc",
-          icon: "assets/linkedin.png",
+          title: "Senior Salesforce Developer at Walker & Dunlop",
+          img:Recommendation2,
+          icon: linkedin,
           socila_profile_link:"http://www.linkedin.com/in/sai-santosh-suddula-b4b42b55/",
           desc:
             "I have worked with Rajesh for over an year. He has good analytical skills and capable of acquiring Technology very fast. Moreover he is committed to his goals.",
@@ -28,14 +32,13 @@ const Testimonials = () => {
         },
         {
           id: 3,
-          name: "Alok Vishwakarma",
-          title: "Full Stack Developer at Xilinx",
-          img:
-            "https://media-exp1.licdn.com/dms/image/C5103AQGnpoQ-czOgaw/profile-displayphoto-shrink_400_400/0/1559289697917?e=1627516800&v=beta&t=3iqVy6rI6pMgoHRKoS-d_xdFkqxQ9p19-bMDw2NIcsk",
-          icon: "assets/linkedin.png",
-          socila_profile_link:'https://www.linkedin.com/in/alok631/',
+          name: "Satyabrata Sahoo",
+          title: "Business Intelligence Engineer at KPMG India",
+          img:Recommendation3,
+          icon: linkedin,
+          socila_profile_link:'https://www.linkedin.com/in/satyabratasahoo238/',
           desc:
-            "It’s rare that you come across standout talent like Rajesh. I had the pleasure of working with Rajesh for one year at Qualcomm.",
+            "An all-time lively spirit who doesn't have any restrictions on expanding his knowledge in the IT space. Hard working and punctual and is open towards all sorts of suggestions and improvement advices. A must have teammate who is very good at a crisis.",
         },
       ];
       return (
@@ -43,9 +46,9 @@ const Testimonials = () => {
           <h1>Testimonials</h1>
           <div className="container">
             {data.map((d) => (
-              <div className={d.featured ? "card featured" : "card"}>
+              <div className={d.featured ? "card featured" : "card"} id={d.id}>
                 <div className="top">
-                  <img src="assets/right-arrow.png" className="left" alt="" />
+                  <img src={rightArrow} className="left" alt="" />
                   <img
                     className="user"
                     src={d.img}
