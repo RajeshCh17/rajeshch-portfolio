@@ -149,6 +149,10 @@
                 border-radius: 50%;
                 box-shadow: 0 15px 1px rgba(50,50,93,.1),0 5px 3px rgba(0,0,0,.07);
 
+                img {
+                  height:50px;
+                }
+
                 @include mobile{
                   height: 20px;
                   width: 12px;
