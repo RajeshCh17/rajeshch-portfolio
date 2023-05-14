@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rajeshch-portfolio/static/css/main.06512088.css",
-    "main.js": "/rajeshch-portfolio/static/js/main.b4a82412.js",
+    "main.js": "/rajeshch-portfolio/static/js/main.146078ff.js",
     "static/media/testimonial2.jpeg": "/rajeshch-portfolio/static/media/testimonial2.a5aa7709a0075c9f6672.jpeg",
     "static/media/tick.png": "/rajeshch-portfolio/static/media/tick.631c3531e9f1d1a28b10.png",
     "static/media/testimonial3.jpeg": "/rajeshch-portfolio/static/media/testimonial3.08ded0ff356c34364d98.jpeg",
@@ -14,10 +14,10 @@
     "index.html": "/rajeshch-portfolio/index.html",
     "static/media/angular.svg": "/rajeshch-portfolio/static/media/angular.3f781d9105b3bef395676155dd37e208.svg",
     "main.06512088.css.map": "/rajeshch-portfolio/static/css/main.06512088.css.map",
-    "main.b4a82412.js.map": "/rajeshch-portfolio/static/js/main.b4a82412.js.map"
+    "main.146078ff.js.map": "/rajeshch-portfolio/static/js/main.146078ff.js.map"
   },
   "entrypoints": [
     "static/css/main.06512088.css",
-    "static/js/main.b4a82412.js"
+    "static/js/main.146078ff.js"
   ]
 }
