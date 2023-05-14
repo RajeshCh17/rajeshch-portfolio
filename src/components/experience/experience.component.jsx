@@ -6,6 +6,9 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import tick from '../../assets/tick.png'
+import './experience.styles.scss';
+
 
 const styles = theme => ({
   body1: {
@@ -88,21 +91,21 @@ export default function Experience() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Working in Fast paced Angular application development environment supported by Material web components.<br/>
-        Incorporated reusable components, directives and configurable tables with support of pagination, sorting and filtering in former apps.<br/>
-        Can build pixel perfect UI via easy configurable style techniques as part of SCSS.<br/>
-        Following TDD, Agile and Scrum methodologies.
+        <img className="tick" src={tick}></img>Working in Fast paced Angular application development environment supported by Material web components.<br/>
+        <img className="tick" src={tick}></img>Incorporated reusable components, directives and configurable tables with support of pagination, sorting and filtering in former apps.<br/>
+        <img className="tick" src={tick}></img>Can build pixel perfect UI via easy configurable style techniques as part of SCSS.<br/>
+        <img className="tick" src={tick}></img>Following TDD, Agile and Scrum methodologies.
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Extensively supported Enterprise Web app in Development, Maintenance and production phase.<br/>
-        Developed APIs, Middle-wares and connected Databases using ES6 and modular pattern in NodeJS.<br/>
-        Used UML Diagrams for better understanding of feature functionlity and technical flows.<br/>
-        For API Interaction worked on Soap UI, Postman, Swagger UI.<br/>
-        TDD using Jasmine, Karma, Chai and Mocha.<br/>
-        For Production support, we monitored logs and alert via SPLUNK and GRAFANA dashboards.
+      <img className="tick" src={tick}></img>Extensively supported Enterprise Web app in Development, Maintenance and production phase.<br/>
+      <img className="tick" src={tick}></img>Developed APIs, Middle-wares and connected Databases using ES6 and modular pattern in NodeJS.<br/>
+      <img className="tick" src={tick}></img>Used UML Diagrams for better understanding of feature functionlity and technical flows.<br/>
+      <img className="tick" src={tick}></img>For API Interaction worked on Soap UI, Postman, Swagger UI.<br/>
+      <img className="tick" src={tick}></img>TDD using Jasmine, Karma, Chai and Mocha.<br/>
+      <img className="tick" src={tick}></img>For Production support, we monitored logs and alert via SPLUNK and GRAFANA dashboards.
       </TabPanel>
       <TabPanel value={value} index={2}>
-      Web development using AngularJS, Bootstrap, PrimeNG web components, Jquery, Media Query, DOM Manipulations.
+      <img className="tick" src={tick}></img>Web development using AngularJS, Bootstrap, PrimeNG web components, Jquery, Media Query, DOM Manipulations.
       </TabPanel>
     </div>
   );

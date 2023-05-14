@@ -2,6 +2,10 @@ import React,{useState} from 'react';
 import './Resume.styles.scss';
 import Education from '../education/education.component.jsx';
 import Experience from '../experience/experience.component.jsx';
+import mobile from '../../assets/mobile.png';
+import globe from '../../assets/globe.png';
+import writing from '../../assets/writing.png';
+import left_cropped from '../../assets/left_cropped.png';
 
 const Resume = () => {
 
@@ -9,7 +13,7 @@ const Resume = () => {
     const data = [
       {
         id: "1",
-        icon: "./assets/mobile.png",
+        icon: {mobile},
         title: "Web Design",
         desc:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -18,7 +22,7 @@ const Resume = () => {
       },
       {
         id: "2",
-        icon: "./assets/globe.png",
+        icon: {globe},
         title: "Mobile Application",
         desc:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -27,7 +31,7 @@ const Resume = () => {
       },
       {
         id: "3",
-        icon: "./assets/writing.png",
+        icon: {writing},
         title: "Branding",
         desc:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -128,13 +132,13 @@ const Resume = () => {
             </div>
         </div>
         <img
-          src="assets/left_cropped.png"
+          src={left_cropped}
           className="arrow left"
           alt="image left"
           onClick={() => handleClick("left")}
         />
         <img
-          src="assets/left_cropped.png"
+          src={left_cropped}
           className="arrow right"
           alt="image right"
           onClick={() => handleClick()}
