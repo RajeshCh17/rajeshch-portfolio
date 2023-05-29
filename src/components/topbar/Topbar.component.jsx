@@ -5,12 +5,12 @@ import { Person, Mail } from "@material-ui/icons";
 const Topbar = ({menuOpen, setMenuOpen}) => {
   const phoneClickHandler = () => {
     navigator.clipboard.writeText('+91 7416518691').then(() => {
-      alert('contact copied!!');
+      alert('CONTACT COPIED!!');
   });;
   };
   const emailClickHandler = () => {
     navigator.clipboard.writeText('rajesh.choudhary1704@gmail.com').then(() => {
-      alert('email copied!!');
+      alert('EMAIL COPIED!!');
   });;
   };
 
