@@ -63,9 +63,9 @@ function a11yProps(index) {
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginTop: '90px',
+    marginTop: '12px',
     width: '100%',
-    height:'350px',
+    height:'344px',
     backgroundColor: theme.palette.background.paper,
   },
 }));
@@ -85,27 +85,40 @@ export default function Experience() {
           indicatorColor="secondary"
           scrollButtons="auto"
           aria-label="scrollable auto tabs">
-          <Tab label="GLOBALLOGIC" {...a11yProps(0)} />
-          <Tab label="PROKARMA" {...a11yProps(1)} />
-          <Tab label="TCS" {...a11yProps(2)} />
+          <Tab label="GlobalLogic" {...a11yProps(0)} />
+          <Tab label="ProKarma" {...a11yProps(1)} />
+          <Tab label="Tata Consultancy Services" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <img className="tick" src={tick}></img>Working in Fast paced Angular application development environment supported by Material web components.<br/>
-        <img className="tick" src={tick}></img>Incorporated reusable components, directives and configurable tables with support of pagination, sorting and filtering in former apps.<br/>
-        <img className="tick" src={tick}></img>Can build pixel perfect UI via easy configurable style techniques as part of SCSS.<br/>
-        <img className="tick" src={tick}></img>Following TDD, Agile and Scrum methodologies.
+        <img className="tick" src={tick}></img>Aligned with fast paced Angular web-app development environment by following best practises for Angular, TypeScript, SCSS & Unit Testing.<br/>
+        <img className="tick" src={tick}></img>Collaborated in meetings with client & team for upcoming feature discussions, Task creations & estimations.<br/>
+        <img className="tick" src={tick}></img>Built reusable components, directives & configurable tables capable of pagination, sorting & filtering.<br/>
+        <img className="tick" src={tick}></img>Built pixel perfect UI using easily configurable css style techniques in SCSS.<br/>
+        <img className="tick" src={tick}></img>Identified, debugged and resolved issues within the Angular legacy codebase in CoPlanner.<br/>
+        <img className="tick" src={tick}></img>Migrated CoPlanner web-app to new Angular components & kept the old theme intact, reduced the impact on 5k users.<br/>
+        <img className="tick" src={tick}></img>Increased CoPlanner usage by 24% by implementing the "deep-link" feature in CoPlanner which lets users bookmark url and web-app flow continues from there on.<br/>
+        <img className="tick" src={tick}></img>Reduced unnecessary api hits to server by 1/3rd of total hits by caching requisite responses in services during initial load.<br/>
+        <img className="tick" src={tick}></img>Mentored Junior developers in Angular development best practices & Conducted peer code reviews.<br/>
       </TabPanel>
       <TabPanel value={value} index={1}>
-      <img className="tick" src={tick}></img>Extensively supported Enterprise Web app in Development, Maintenance and production phase.<br/>
-      <img className="tick" src={tick}></img>Developed APIs, Middle-wares and connected Databases using ES6 and modular pattern in NodeJS.<br/>
-      <img className="tick" src={tick}></img>Used UML Diagrams for better understanding of feature functionlity and technical flows.<br/>
-      <img className="tick" src={tick}></img>For API Interaction worked on Soap UI, Postman, Swagger UI.<br/>
-      <img className="tick" src={tick}></img>TDD using Jasmine, Karma, Chai and Mocha.<br/>
-      <img className="tick" src={tick}></img>For Production support, we monitored logs and alert via SPLUNK and GRAFANA dashboards.
+      <p>
+        <img className="tick" src={tick}></img>Extensively supported Enterprise T-Mobile web app during SDLC phases via MicroServices architecture.<br/>
+        <img className="tick" src={tick}></img>Developed Apis, Middleware & Database connections in NodeJS using ExpressJS.<br/>
+        <img className="tick" src={tick}></img>Collaborated with cross functional teams to resolve mutual dependent tasks.<br/>
+        <img className="tick" src={tick}></img>Created UML Diagrams of Api's beforehand for better understanding across Geographically distributed teams.<br/>
+        <img className="tick" src={tick}></img>Familiar with SoapUI, Postman & Swagger UI for Api relative request & response.<br/>
+        <img className="tick" src={tick}></img>NodeJS & Angular TDD development using Jasmine, Karma, Chai & Mocha.<br/>
+        <img className="tick" src={tick}></img>Monitored Production alerts via GRAFANA charts & Debugged using SPLUNK query.<br/> 
+      </p>
       </TabPanel>
       <TabPanel value={value} index={2}>
-      <img className="tick" src={tick}></img>Web development using AngularJS, Bootstrap, PrimeNG web components, Jquery, Media Query, DOM Manipulations.
+      <p>
+        <img className="tick" src={tick}></img>Designed responsive user-friendly interfaces using Bootstrap & Media Query.<br/>
+        <img className="tick" src={tick}></img>Incorporated PrimeNG Table with virtual scrolling support.<br/>
+        <img className="tick" src={tick}></img>Developed User Registration & SignUp Form..<br/>
+        <img className="tick" src={tick}></img>Worked as an Individual contributor in the Front-end development team of 8 developers.
+      </p>
       </TabPanel>
     </div>
   );

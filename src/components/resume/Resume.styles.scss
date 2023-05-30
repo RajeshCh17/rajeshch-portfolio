@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .resume {
-  background-color: crimson;
+  background-color: #00DDFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +31,7 @@
   }
 
   .slider {
-    height: 350px;
+    height: 410px;
     display: flex;
     position: absolute;
     left: 0;

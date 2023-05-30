@@ -32,6 +32,18 @@
                 align-items: center;
                 margin-left: 30px;
 
+                .emailAddress {
+                    color: black;
+                    text-decoration: none;
+                }
+
+                .clipBoardClass{
+                    height: 12px;
+                    width: 12px;
+                    margin-left: 6px;
+                    cursor: pointer;
+                }
+            
                 @include mobile{
                     display: none;
                   }
