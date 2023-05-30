@@ -137,6 +137,8 @@
           overflow: hidden;
 
           .icon-list{
+            padding-bottom: 16px;
+            padding-top: 15px;
 
               .icon {
                 height: 50px;
@@ -153,7 +155,7 @@
                   height:50px;
                 }
 
-                @include mobile{
+                @include mobile {
                   height: 20px;
                   width: 12px;
                   padding: 6px;

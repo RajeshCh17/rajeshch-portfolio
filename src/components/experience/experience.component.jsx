@@ -13,6 +13,7 @@ import './experience.styles.scss';
 const styles = theme => ({
   body1: {
     fontWeight: 350,
+    textTransform:'none',
     [theme.breakpoints.down('sm')]: {
       fontSize: '0.75rem',
     },
@@ -21,6 +22,7 @@ const styles = theme => ({
     },
     [theme.breakpoints.up('lg')]: {
       fontSize: '0.95rem',
+      lineHeight: 1.8,
     },
   },
 });
@@ -84,6 +86,7 @@ export default function Experience() {
         <Tabs value={value} onChange={handleChange} variant="scrollable"
           indicatorColor="secondary"
           scrollButtons="auto"
+          className="styleTab"
           aria-label="scrollable auto tabs">
           <Tab label="GlobalLogic" {...a11yProps(0)} />
           <Tab label="ProKarma" {...a11yProps(1)} />

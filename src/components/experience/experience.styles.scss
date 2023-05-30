@@ -12,6 +12,15 @@ p {
     line-height: 1.8;
 }
 
-.MuiTab-root{
-    text-transform: none;
+//Specifically Overriding style.
+.MuiTabs-root.styleTab {
+    .MuiTab-root{   
+        text-transform: none;
+    }
+}
+
+.makeStyles-root-1 > .MuiAppBar-colorPrimary {
+    color: #C7395F;
+    background-color: #DED4E8;
+    
 }
